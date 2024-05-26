@@ -84,7 +84,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var pathname = window.location.pathname;
-        if(pathname == '\login') {
+        if(pathname != '\login') {
             console.log(pathname);
             setInterval(function() {
                 $.ajax({
